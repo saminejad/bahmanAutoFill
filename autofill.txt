@@ -1,0 +1,102 @@
+﻿### AUTOFILL PROFILES ###,,,,,,
+Profile ID,Name,Site,Hotkey,,,
+c1,bahman,bahman.iranecar.com,Ctrl + X,,,
+c3,color,bahman.iranecar.com,Ctrl + C,,,
+### AUTOFILL RULES ###,,,,,,
+Rule ID,Type,Name,Value,Site,Mode,Profile
+r1,3,"input[type=""checkbox""]","1","",0,c1
+r9,0,"div[placeholder=""لطفا نام خود را به صورت کامل وارد نمایید.""] > input","بهرام","bahman.iranecar.com/registration",0,c1
+r10,0,"div[placeholder=""لطفا نام خانوادگی خود را به صورت کامل وارد نمایید""] > input","سامی نژاد","",0,c1
+r11,0,"div[placeholder=""لطفا نام پدر را به صورت کامل وارد نمایید""] > input","امراله","",0,c1
+r12,0,"div[placeholder=""کدملی یک عدد 10 رقمی است""] > input","4220197631","",0,c1
+r13,0,"div[placeholder=""لطفا شماره شناسنامه خود را وارد نمایید""] > input","4220197631","",0,c1
+r14,0,"div[placeholder=""لطفا سریال شناسنامه خود را وارد نمایید""] > input","179027","",0,c1
+r15,0,"div[class=""input\-item date\-input""] > span > span > input","1370/04/15","",0,c1
+r16,0,"div[class=""input\-item date\-input""] > span > span > input","1370/04/16","",0,c1
+r27,4,"","document.getElementsByTagName(""select"")[0].selectedIndex=2
+","",0,c1
+r29,4,"","let item = document.getElementsByTagName(""select"")[1]
+item.innerText=""""
+let  option = document.createElement( 'option' );
+option.value = 21;
+option.innerText=""کهگیلویه و بویراحمد"";
+item.add(option);
+document.querySelector('option[value=""21""]').selected = true","",0,c1
+r31,4,"","let item = document.getElementsByTagName(""select"")[2]
+item.innerText=""""
+let  option = document.createElement( 'option' );
+option.value = 205;
+option.innerText=""یاسوج"";
+item.add(option);
+document.querySelector('option[value=""205""]').selected = true","",0,c1
+r32,4,"","let item = document.getElementsByTagName(""select"")[3]
+item.innerText=""""
+let  option = document.createElement( 'option' );
+option.value = 21;
+option.innerText=""کهگیلویه و بویراحمد"";
+item.add(option);
+document.querySelector('option[value=""21""]').selected = true","",0,c1
+r33,4,"","let item = document.getElementsByTagName(""select"")[4]
+item.innerText=""""
+let  option = document.createElement( 'option' );
+option.value = 205;
+option.innerText=""یاسوج"";
+item.add(option);
+document.querySelector('option[value=""205""]').selected = true","",0,c1
+r34,4,"","document.getElementsByTagName(""select"")[5].selectedIndex=2","",0,c1
+r35,4,"","document.getElementsByTagName(""select"")[6].selectedIndex=1","",0,c1
+r36,4,"","document.getElementsByTagName(""select"")[7].selectedIndex=1","",0,c1
+r37,4,"","let item = document.getElementsByTagName(""select"")[8]
+item.innerText=""""
+let  option = document.createElement( 'option' );
+option.value = 21;
+option.innerText=""کهگیلویه و بویراحمد"";
+item.add(option);
+document.querySelector('option[value=""21""]').selected = true","",0,c1
+r38,4,"","let item = document.getElementsByTagName(""select"")[9]
+item.innerText=""""
+let  option = document.createElement( 'option' );
+option.value = 205;
+option.innerText=""یاسوج"";
+item.add(option);
+document.querySelector('option[value=""205""]').selected = true","",0,c1
+r39,0,"div[placeholder=""لطفا خیابان اصلی آدرس خود را وارد نمایید.""] > input","خیابان خیام","",0,c1
+r40,0,"div[placeholder=""لطفا خیابان فرعی آدرس خود را وارد نمایید"" ] > input","خیابان فرعی","",0,c1
+r41,0,"div[placeholder=""لطفا نام کوچه را وارد نمایید"" ] > input","کوچه","",0,c1
+r42,0,"div[placeholder=""لطفا پلاک محل سکونت خود را وارد نمایید"" ] > input","2","",0,c1
+r43,0,"div[placeholder=""لطفا کد پستی خود را وارد نمایید"" ] > input","7591137459","",0,c1
+r44,0,"input[maxlength=""32""]","IR40 0600 6007 0100 2120 4150 01","",0,c1
+r45,0,"div[placeholder=""لطفا نام بانک را وارد نمایید""] > input","مهر ایران","",0,c1
+r46,0,"div[placeholder=""شماره گواهینامه یک عدد 10 رقمی می‌باشد""] > input","9801111111","",0,c1
+r47,0,"div[placeholder=""شماره موبایل با 09 باید آغاز شود""] > input","09173434399","",0,c1
+r48,0,"div[placeholder=""لطفا تلفن ثابت را به همراه پیش شماره شهر وارد نمایید""] > input","07433320000","",0,c1
+r49,0,"div[placeholder=""لطفا آدرس ایمیل معتبر وارد نمایید""] > input","bahram.saminejad@gmail.com","",0,c1
+r50,4,"","document.getElementsByClassName(""input-item date-input"")[0].getElementsByTagName(""input"")[0].value=""1370/04/15""","",0,c1
+r51,4,"","document.getElementsByClassName(""input-item date-input"")[1].getElementsByTagName(""input"")[0].value=""1370/04/16""","",0,c1
+r54,4,"","let item = document.getElementsByTagName(""li"");
+for(let i of item) 
+{
+  
+   if(i.innerText.includes('سفید'))
+     i.click();
+    
+}","",0,c3
+r56,3,"input[type=""checkbox""]","1","",0,c3
+### AUTOFILL OPTIONS ###,,,,,,
+advanced,"[]",,,,,
+exceptions,"[]",,,,,
+textclips,"[]",,,,,
+variables,"[]",,,,,
+backup,0,30,,,,
+manual,1,,,,,
+delay,0,1,,,,
+labelmatch,0,,,,,
+overwrite,0,,,,,
+vars,1,,,,,
+sound,1,,,,,
+voice,0,1,,,,
+debug,0,,,,,
+mask,1,,,,,
+scale,1,,,,,
+menu,1,,,,,
+autoimport,0,,,,,
